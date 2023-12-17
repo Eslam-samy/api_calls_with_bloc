@@ -23,7 +23,7 @@ class TodosScreen extends StatelessWidget {
             return TodosWidget(items: state.data);
           } else {
             return const LoadingWidget();
-            ;
+            
           }
         },
       ),
